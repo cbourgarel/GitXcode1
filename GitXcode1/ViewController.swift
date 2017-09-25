@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.title = "Titre"
+        
+        self.view.backgroundColor = .red
+        
+        let label = UILabel()
     }
 
     override func didReceiveMemoryWarning() {
